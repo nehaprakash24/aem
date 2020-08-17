@@ -1,176 +1,255 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-12-15T12:55:28.070-08:00"
+        cq:lastModified="{Date}2019-10-28T11:02:08.196-07:00"
         cq:lastModifiedBy="admin"
+        cq:lastRolledout="{Date}2019-10-28T11:02:08.198-07:00"
+        cq:lastRolledoutBy="admin"
+        cq:tags="[wknd:region/nam/united-states,wknd:season/summer,wknd:activity/skateboarding,wknd:customer-journey/engage,wknd:customer-journey/convert]"
         cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
+        jcr:description="Breaking down the top skate destinations in all of Los Angeles. You don't want to miss this!"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:LiveRelationship,mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Ultimate Guide to LA Skateparks"
+        jcr:uuid="1d55fd8f-677e-4eaa-9bb2-b09f3ca37f53"
         sling:resourceType="wknd/components/structure/page"
         socialMedia="[facebook,pinterest]">
         <root
+            cq:lastRolledout="{Date}2019-10-28T11:02:08.109-07:00"
+            cq:lastRolledoutBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
             <responsivegrid
+                cq:lastRolledout="{Date}2019-10-28T11:02:08.114-07:00"
+                cq:lastRolledoutBy="admin"
+                cq:styleIds="[1554340406437]"
+                jcr:created="{Date}2019-03-19T13:19:35.891-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-10-28T11:02:08.110-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid">
                 <image
-                    jcr:created="{Date}2019-12-13T15:24:57.764-08:00"
+                    cq:lastRolledout="{Date}2019-10-28T11:02:08.117-07:00"
+                    cq:lastRolledoutBy="admin"
+                    jcr:created="{Date}2019-04-03T18:29:05.193-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-12-15T12:24:44.807-08:00"
+                    jcr:lastModified="{Date}2019-10-28T11:02:08.116-07:00"
                     jcr:lastModifiedBy="admin"
+                    jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/content/image"
                     fileReference="/content/dam/wknd/en/magazine/la-skateparks/article_01_hero.png"/>
                 <responsivegrid
-                    jcr:created="{Date}2019-12-13T15:27:44.350-08:00"
+                    cq:lastRolledout="{Date}2019-10-28T11:02:08.120-07:00"
+                    cq:lastRolledoutBy="admin"
+                    jcr:created="{Date}2019-04-03T18:31:10.416-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-12-13T15:28:29.247-08:00"
+                    jcr:lastModified="{Date}2019-10-28T11:02:08.118-07:00"
                     jcr:lastModifiedBy="admin"
+                    jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/foundation/components/responsivegrid">
                     <title
-                        jcr:created="{Date}2019-12-13T15:34:32.731-08:00"
+                        cq:lastRolledout="{Date}2019-10-28T11:02:08.124-07:00"
+                        cq:lastRolledoutBy="admin"
+                        jcr:created="{Date}2019-10-14T14:58:22.934-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-12-13T15:34:32.731-08:00"
+                        jcr:lastModified="{Date}2019-10-28T11:02:08.123-07:00"
                         jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/title"/>
-                    <title_646474858
-                        jcr:created="{Date}2019-12-13T15:34:43.389-08:00"
+                        sling:resourceType="wknd/components/content/title"
+                        type="h1"/>
+                    <title_875115054
+                        cq:lastRolledout="{Date}2019-10-28T11:02:08.127-07:00"
+                        cq:lastRolledoutBy="admin"
+                        jcr:created="{Date}2019-10-14T14:58:29.031-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-12-15T12:24:56.620-08:00"
+                        jcr:lastModified="{Date}2019-10-28T11:02:08.125-07:00"
                         jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="By Stacey Roswells"
                         sling:resourceType="wknd/components/content/title"
                         type="h4"/>
-                    <text
-                        jcr:created="{Date}2019-12-13T15:35:03.617-08:00"
+                    <contentfragment
+                        cq:lastRolledout="{Date}2019-10-28T11:02:08.132-07:00"
+                        cq:lastRolledoutBy="admin"
+                        jcr:created="{Date}2019-04-03T18:35:18.394-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-12-15T12:32:37.014-08:00"
+                        jcr:lastModified="{Date}2019-10-28T11:02:08.129-07:00"
                         jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/text"
-                        text="&lt;p>Contrary to popular belief skateboarding, the sport as we know it was not invented by Marty McFly as depicted in the box office hit Back to the Future. It is widely considered that the sport was invented in California by surfers who wanted something to do when the ocean waves went &amp;quot;flat&amp;quot; or in non-surfer terms when there were no waves in the early 1950s. This was termed &amp;quot;sidewalk surfing&amp;quot; as a never ending wave that surfers could drop in on, unless it was raining. Los Angeles is long considered the epicenter of this alternative sport. The sport grew slowly, mostly on the west coast, finally becoming mainstream into the 1980s. In the summer of 2020 skateboarding will make its debut in the Olympics. In honor of this historic achievement we tracked down the top skate spots in greater Los Angeles.&lt;/p>&#xd;&#xa;"
-                        textIsRich="true"/>
-                    <text_1077829377
-                        jcr:created="{Date}2019-12-15T12:32:50.100-08:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-12-15T12:52:26.640-08:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/text"
-                        text="&lt;blockquote>&amp;quot;There is no better place to shred then Los Angeles&amp;quot;&lt;/blockquote>&#xd;&#xa;&lt;div>Jacob Wester - Pro Skater&lt;/div>&#xd;&#xa;"
-                        textIsRich="true"/>
-                    <title_981531179
-                        jcr:created="{Date}2019-12-15T12:52:36.224-08:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-12-15T12:52:45.655-08:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Vans off the Wall Skatepark"
-                        sling:resourceType="wknd/components/content/title"
-                        type="h2"/>
-                    <text_2133474915
-                        jcr:created="{Date}2019-12-15T12:53:14.316-08:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-12-15T12:53:26.432-08:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/text"
-                        text="&lt;p>&lt;b>Vans off the Wall Skatepark, Huntington Beach&lt;/b> located in Orange County, Vans Huntington Beach is a skate park paradise. With a cool ocean breeze and always sunny weather makes this destination a good time, anytime. The layout includes an enormous street skating area with something for everyone. There are multiple connecting bowls, easily 15 feet deep which contain top of the line concrete and is well maintained. Multiple stairs, rails, and ramps complete this great skatepark. Whether your an amateur, still attempting your first kick flip or an experience pro, polishing off that back-side 900 Vans H.B. will have something for you.&lt;/p>&#xd;&#xa;"
-                        textIsRich="true"/>
-                    <image
-                        jcr:created="{Date}2019-12-15T12:53:40.035-08:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-12-15T12:53:44.215-08:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/image"
-                        fileReference="/content/dam/wknd/en/magazine/la-skateparks/article_01_picture_01.png"/>
-                    <title_1037477990
-                        jcr:created="{Date}2019-12-15T12:53:55.587-08:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-12-15T12:54:04.692-08:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Moorpark Skatepark"
-                        sling:resourceType="wknd/components/content/title"
-                        type="h2"/>
-                    <text_1476572348
-                        jcr:created="{Date}2019-12-15T12:54:25.553-08:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-12-15T12:54:36.520-08:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/text"
-                        text="&lt;p>&lt;b>Moorpark Skate Park &lt;/b>located in Ventura County, Moorpark is considered the area's premier skatepark. Moorpark skate park, &amp;quot;M.P.&amp;quot; for short, offers a wide variety of challenges and terrain for different skill sets. An isolated beginner area features low walls for beginners just getting their feet wet and ensures a safe space for learning progression. M.P. also includes an incredible bowl that was specifically designed to look like a backyard pool. Nearby you can also visit the Skateboarding Hall of Fame Museum, featuring a great collection of historic skateboarding memorabilia.&amp;nbsp;&lt;/p>&#xd;&#xa;"
-                        textIsRich="true"/>
-                    <title_1104461573
-                        jcr:created="{Date}2019-12-15T12:54:45.004-08:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-12-15T12:54:55.740-08:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Venice Beach Skatepark"
-                        sling:resourceType="wknd/components/content/title"
-                        type="h2"/>
-                    <image_1571274653
-                        jcr:created="{Date}2019-12-15T12:55:24.762-08:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-12-15T12:55:28.066-08:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/image"
-                        fileReference="/content/dam/wknd/en/magazine/la-skateparks/robson-hatsukami-morgan-280159.jpg"/>
-                    <text_603740173
-                        jcr:created="{Date}2019-12-15T12:55:12.229-08:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-12-15T12:55:20.107-08:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/text"
-                        text="&lt;p>&lt;b>Venice Beach Skate Park&lt;/b>, we may have saved the best for last. Probably considered the quintessential skate area in all of LA, perhaps the world, is the Venice Beach skatepark. Located just a stones throw away from the Venice beach boardwalk, there is no better place to strut your stuff then Venice Beach. Here you'll see not only incredible skating, but also incredible styles, skaters in gorilla suits, suits and ties, tutus. Ocean breezes and a view of the water attracts skaters and tourists a like at this wildly popular skatepark. The skateparks is expertly designed with a wide variety of street features and bowls. This place has an incredible vibe, the locals are friendly and welcoming to experts and beginners alike. If you can only choose one skatepark to visit, Venice beach is tough to beat.&lt;/p>&#xd;&#xa;"
-                        textIsRich="true"/>
+                        sling:resourceType="wknd/components/content/contentfragment"
+                        displayMode="singleText"
+                        elementNames="main"
+                        fragmentPath="/content/dam/wknd/en/magazine/la-skateparks/ultimate-guide-to-la-skateparks"
+                        paragraphScope="all"
+                        text=""
+                        variationName="master">
+                        <par1
+                            cq:lastRolledout="{Date}2019-10-28T11:02:08.134-07:00"
+                            cq:lastRolledoutBy="admin"
+                            jcr:mixinTypes="[cq:LiveRelationship]"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/components/grid">
+                            <text
+                                cq:lastRolledout="{Date}2019-10-28T11:02:08.138-07:00"
+                                cq:lastRolledoutBy="admin"
+                                cq:styleIds="[1554340301154]"
+                                jcr:created="{Date}2019-09-26T07:30:42.044-07:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2019-10-28T11:02:08.136-07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:mixinTypes="[cq:LiveRelationship]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wknd/components/content/text"
+                                text="&lt;blockquote>&amp;quot;There is no better place to shred then Los Angeles&amp;quot;&lt;/blockquote>&#xd;&#xa;&lt;p>&lt;u>Jacob Wester - Pro Skater&lt;/u>&lt;/p>&#xd;&#xa;"
+                                textIsRich="true"/>
+                            <title
+                                cq:lastRolledout="{Date}2019-10-28T11:02:08.151-07:00"
+                                cq:lastRolledoutBy="admin"
+                                cq:styleIds="[1568996484405]"
+                                jcr:created="{Date}2019-10-01T16:59:27.512-07:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2019-10-28T11:02:08.140-07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:mixinTypes="[cq:LiveRelationship]"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Vans Off the Wall Skatepark"
+                                sling:resourceType="wknd/components/content/title"
+                                type="h2"/>
+                        </par1>
+                        <par2
+                            cq:lastRolledout="{Date}2019-10-28T11:02:08.152-07:00"
+                            cq:lastRolledoutBy="admin"
+                            jcr:mixinTypes="[cq:LiveRelationship]"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/components/grid">
+                            <image_copy
+                                cq:lastRolledout="{Date}2019-10-28T11:02:08.156-07:00"
+                                cq:lastRolledoutBy="admin"
+                                jcr:created="{Date}2019-09-26T07:30:24.820-07:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2019-10-28T11:02:08.154-07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:mixinTypes="[cq:LiveRelationship]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wknd/components/content/image"
+                                fileReference="/content/dam/wknd/en/magazine/la-skateparks/article_01_picture_01.png"/>
+                        </par2>
+                        <par3
+                            cq:lastRolledout="{Date}2019-10-28T11:02:08.158-07:00"
+                            cq:lastRolledoutBy="admin"
+                            jcr:mixinTypes="[cq:LiveRelationship]"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/components/grid">
+                            <title
+                                cq:lastRolledout="{Date}2019-10-28T11:02:08.162-07:00"
+                                cq:lastRolledoutBy="admin"
+                                cq:styleIds="[1568996484405]"
+                                jcr:created="{Date}2019-10-01T17:01:13.797-07:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2019-10-28T11:02:08.160-07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:mixinTypes="[cq:LiveRelationship]"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Moorpark skate park"
+                                sling:resourceType="wknd/components/content/title"
+                                type="h2"/>
+                        </par3>
+                        <par5
+                            cq:lastRolledout="{Date}2019-10-28T11:02:08.164-07:00"
+                            cq:lastRolledoutBy="admin"
+                            jcr:mixinTypes="[cq:LiveRelationship]"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/components/grid">
+                            <title
+                                cq:lastRolledout="{Date}2019-10-28T11:02:08.168-07:00"
+                                cq:lastRolledoutBy="admin"
+                                cq:styleIds="[1568996484405]"
+                                jcr:created="{Date}2019-10-01T17:05:08.775-07:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2019-10-28T11:02:08.166-07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:mixinTypes="[cq:LiveRelationship]"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Venice Beach Skatepark"
+                                sling:resourceType="wknd/components/content/title"
+                                type="h2"/>
+                            <image
+                                cq:lastRolledout="{Date}2019-10-28T11:02:08.171-07:00"
+                                cq:lastRolledoutBy="admin"
+                                jcr:created="{Date}2019-10-01T17:05:46.598-07:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2019-10-28T11:02:08.169-07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:mixinTypes="[cq:LiveRelationship]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wknd/components/content/image"
+                                fileReference="/content/dam/wknd/en/magazine/la-skateparks/robson-hatsukami-morgan-280159.jpg"/>
+                        </par5>
+                    </contentfragment>
                 </responsivegrid>
-                <responsivegrid_766689807
-                    jcr:created="{Date}2019-12-13T15:30:00.933-08:00"
+                <responsivegrid_223059690
+                    cq:lastRolledout="{Date}2019-10-28T11:02:08.177-07:00"
+                    cq:lastRolledoutBy="admin"
+                    jcr:created="{Date}2019-04-03T18:32:31.547-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-12-13T15:30:54.835-08:00"
+                    jcr:lastModified="{Date}2019-10-28T11:02:08.175-07:00"
                     jcr:lastModifiedBy="admin"
+                    jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/foundation/components/responsivegrid">
                     <title
-                        jcr:created="{Date}2019-12-13T15:35:16.353-08:00"
+                        cq:lastRolledout="{Date}2019-10-28T11:02:08.182-07:00"
+                        cq:lastRolledoutBy="admin"
+                        cq:styleIds="[1569449156797,1568996420379,1569448853340]"
+                        jcr:created="{Date}2019-09-25T15:04:58.771-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-12-13T15:35:27.781-08:00"
+                        jcr:lastModified="{Date}2019-10-28T11:02:08.180-07:00"
                         jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Share this story"
+                        jcr:title="SHARE THIS STORY"
                         sling:resourceType="wknd/components/content/title"
                         type="h5"/>
                     <sharing
-                        jcr:created="{Date}2019-12-13T15:35:33.037-08:00"
+                        cq:lastRolledout="{Date}2019-10-28T11:02:08.184-07:00"
+                        cq:lastRolledoutBy="admin"
+                        jcr:created="{Date}2019-09-25T15:04:53.325-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-12-13T15:35:33.037-08:00"
+                        jcr:lastModified="{Date}2019-10-28T11:02:08.183-07:00"
                         jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/content/sharing"/>
                     <separator
-                        jcr:created="{Date}2019-12-13T15:35:40.474-08:00"
+                        cq:lastRolledout="{Date}2019-10-28T11:02:08.187-07:00"
+                        cq:lastRolledoutBy="admin"
+                        cq:styleIds="[1571075919520,1571075910473]"
+                        jcr:created="{Date}2019-10-14T15:16:54.810-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-12-13T15:35:40.474-08:00"
+                        jcr:lastModified="{Date}2019-10-28T11:02:08.185-07:00"
                         jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/content/separator"/>
                     <download
-                        jcr:created="{Date}2019-12-13T15:35:46.795-08:00"
+                        cq:lastRolledout="{Date}2019-10-28T11:02:08.192-07:00"
+                        cq:lastRolledoutBy="admin"
+                        jcr:created="{Date}2019-10-14T15:14:04.888-07:00"
                         jcr:createdBy="admin"
                         jcr:description="&lt;p>Get the Full Story&lt;/p>&#xd;&#xa;"
-                        jcr:lastModified="{Date}2019-12-15T12:29:04.180-08:00"
+                        jcr:lastModified="{Date}2019-10-28T11:02:08.188-07:00"
                         jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Download PDF"
                         sling:resourceType="wknd/components/content/download"
@@ -181,21 +260,27 @@
                         textIsRich="true"
                         titleFromAsset="false"/>
                     <list
-                        jcr:created="{Date}2019-12-13T15:35:57.752-08:00"
+                        cq:lastRolledout="{Date}2019-10-28T11:02:08.198-07:00"
+                        cq:lastRolledoutBy="admin"
+                        cq:styleIds="[1554340350631]"
+                        jcr:created="{Date}2019-04-03T18:35:24.854-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-12-15T12:30:00.473-08:00"
+                        jcr:lastModified="{Date}2019-10-28T11:02:08.194-07:00"
                         jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/content/list"
                         childDepth="1"
                         linkItems="true"
-                        listFrom="static"
-                        pages="[/content/wknd/us/en/magazine/guide-la-skateparks,/content/wknd/us/en/magazine]"
+                        listFrom="children"
+                        maxItems="4"
+                        orderBy="modified"
+                        parentPage="/content/wknd/us/en/magazine"
                         showDescription="false"
                         showModificationDate="true"
-                        sortOrder="asc"
+                        sortOrder="desc"
                         tagsMatch="any"/>
-                </responsivegrid_766689807>
+                </responsivegrid_223059690>
             </responsivegrid>
         </root>
     </jcr:content>
